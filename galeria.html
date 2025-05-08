@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería | Dom Polski Rosario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; background: #fff; color: #333; }
+    nav { background: white; display: flex; justify-content: center; gap: 2rem; padding: 1rem; position: sticky; top: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    nav a { text-decoration: none; color: #c1121f; font-weight: bold; transition: 0.3s; }
+    nav a:hover { color: #333; }
+    .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 4rem 2rem; max-width: 900px; margin: auto; }
+    .galeria img { width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; border-radius: 50%; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 28px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); z-index: 999; }
+    footer { text-align: center; padding: 2rem; background: #f5f5f5; color: #555; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="actividades.html">Actividades</a>
+  <a href="galeria.html">Galería</a>
+  <a href="eventos.html">Eventos</a>
+  <a href="reserva.html">Reservas</a>
+</nav>
+
+<div class="galeria">
+  <img src="https://via.placeholder.com/400x300?text=Foto+1" alt="Foto 1">
+  <img src="https://via.placeholder.com/400x300?text=Foto+2" alt="Foto 2">
+  <img src="https://via.placeholder.com/400x300?text=Foto+3" alt="Foto 3">
+  <img src="https://via.placeholder.com/400x300?text=Foto+4" alt="Foto 4">
+</div>
+
+<footer>
+  <p>Dom Polski Rosario - San Nicolás 831</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/543413927109" target="_blank">✆</a>
+
+</body>
+</html>
