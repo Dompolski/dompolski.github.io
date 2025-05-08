@@ -1,137 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dom Polski Rosario</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
-    body { font-family: 'Montserrat', sans-serif; color: #333; background: #fff; }
-    header {
-      height: 100vh;
-      background: url('https://images.unsplash.com/photo-1509228627159-64510440f0f4?fit=crop&w=1200') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-      position: relative;
-    }
-    header::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.5);
-    }
-    header h1 {
-      font-size: 3em;
-      z-index: 1;
-    }
-    nav {
-      background: white;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      position: sticky;
-      top: 0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    nav a {
-      text-decoration: none;
-      color: #c1121f;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #333;
-    }
-    section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.8rem 1.5rem;
-      background: #c1121f;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #8c0e18;
-    }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: white;
-      border-radius: 50%;
-      width: 55px;
-      height: 55px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 28px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-      z-index: 999;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #f5f5f5;
-      color: #555;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Polski Rosario</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
 </head>
 <body>
-
-<header>
-  <h1>Dom Polski Rosario</h1>
-</header>
-
-<nav>
-  <a href="index.html">Inicio</a>
-  <a href="actividades.html">Actividades</a>
-  <a href="galeria.html">Galería</a>
-  <a href="eventos.html">Eventos</a>
-  <a href="reserva.html">Reservas</a>
-</nav>
-
-<section id="nosotros">
-  <h2>Bienvenidos</h2>
-  <p>Dom Polski Rosario es un espacio cultural dedicado a la comunidad polaca y a todos los que deseen acercarse a su historia, tradiciones y actividades.</p>
-  <p>Ubicados en <strong>San Nicolás 831</strong>, ofrecemos un espacio único para encuentros culturales, talleres, eventos y más.</p>
-</section>
-
-<section>
-  <h2>Próximos Eventos</h2>
-  <p>Explorá nuestras celebraciones, actividades culturales y encuentros gastronómicos.</p>
-  <a href="eventos.html" class="btn">Ver eventos</a>
-</section>
-
-<section>
-  <h2>Visítanos</h2>
-  <p>Te esperamos en San Nicolás 831 para compartir juntos el espíritu polaco en Rosario.</p>
-</section>
-
-<footer id="contacto">
-  <p>Dom Polski Rosario - San Nicolás 831</p>
-  <p><a href="https://instagram.com/dompolski_rosario" target="_blank">@dompolski_rosario</a></p>
-</footer>
-
-<a class="whatsapp" href="https://wa.me/543413927109" target="_blank">✆</a>
-
+    <div class="cursor"></div>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="actividades.html">Actividades</a>
+            <a href="galeria.html">Galería</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenidos a Dom Polski Rosario</h1>
+        <p>Centro de encuentro de la colectividad polaca en Rosario.</p>
+    </main>
 </body>
+<script src="js/cursor.js"></script>
 </html>
